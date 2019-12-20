@@ -5,13 +5,31 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
-
+function makeDino(name, diet, weight, length, period) {
+  let dino = {
+    name: name,
+    diet: diet,
+    weight: weight,
+    length: length,
+    period: period
+  }
+  return dino;
+}
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
-
+/*function makeDino(name, diet, weight, length, period) {
+  let tyrannosaurus = {
+    name: "tyrannosaurus",
+    diet: "carnivorous",
+    weight: "7000kg",
+    length: "12m",
+    period: "Late Cretaceous"
+  }
+  return tyrannosaurus;
+}*/
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
-
+let stegosaurus = ("stegosaurus", "herbivorous", "2000kg", "9m", "Late Jurassic")
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
-
+let velociraptor = ("velociraptor", "carnivorous", "15kg", "1.8m", "Late Cretaceous")
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
