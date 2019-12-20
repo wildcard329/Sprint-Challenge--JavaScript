@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+	.map returns the results as a collection, .forEach does not return anything unless specified.
+
 2. What is the difference between a function and a method?
+
+	Methods are tied to objects, whereas functions can be created and executed independently of an object.
 
 3. What is closure?
 
+	A closure is a block of code that can return primitive data types and functions outside of its block.
+
 4. Describe the four rules of the 'this' keyword.
 
+	  1. If no reference is given for keyword, it will default to the window object.
+  	  2. Keyword references the object before the dot that follows it.
+  	  3. Keyword refers to the specific instance of the object that is created when a constructor function is used.
+  	  4. Keyword is explicitly defined when call or apply is used.
+
 5. Why do we need super() in an extended class?
+
+	super() points to the object's parent class.
 
 ## Project Set up
 
